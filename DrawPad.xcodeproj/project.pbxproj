@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78B4B8751A49DDAF002B004D /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B4B8741A49DDAF002B004D /* SettingsViewController.swift */; };
+		EE43D4731A14A6F200311C06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE43D4721A14A6F200311C06 /* AppDelegate.swift */; };
+		EE43D4751A14A6F200311C06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE43D4741A14A6F200311C06 /* ViewController.swift */; };
+		EE43D4781A14A6F200311C06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE43D4761A14A6F200311C06 /* Main.storyboard */; };
+		EE43D47A1A14A6F200311C06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE43D4791A14A6F200311C06 /* Images.xcassets */; };
+		EE43D47D1A14A6F200311C06 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE43D47B1A14A6F200311C06 /* LaunchScreen.xib */; };
+		EE43D4891A14A6F200311C06 /* DrawPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE43D4881A14A6F200311C06 /* DrawPadTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE43D4831A14A6F200311C06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE43D4651A14A6F200311C06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE43D46C1A14A6F200311C06;
+			remoteInfo = DrawPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		78B4B8741A49DDAF002B004D /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		EE43D46D1A14A6F200311C06 /* DrawPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE43D4711A14A6F200311C06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE43D4721A14A6F200311C06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE43D4741A14A6F200311C06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE43D4771A14A6F200311C06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE43D4791A14A6F200311C06 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE43D47C1A14A6F200311C06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EE43D4821A14A6F200311C06 /* DrawPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE43D4871A14A6F200311C06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE43D4881A14A6F200311C06 /* DrawPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawPadTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE43D46A1A14A6F200311C06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE43D47F1A14A6F200311C06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE43D4641A14A6F200311C06 = {
+			isa = PBXGroup;
+			children = (
+				EE43D46F1A14A6F200311C06 /* DrawPad */,
+				EE43D4851A14A6F200311C06 /* DrawPadTests */,
+				EE43D46E1A14A6F200311C06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE43D46E1A14A6F200311C06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE43D46D1A14A6F200311C06 /* DrawPad.app */,
+				EE43D4821A14A6F200311C06 /* DrawPadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE43D46F1A14A6F200311C06 /* DrawPad */ = {
+			isa = PBXGroup;
+			children = (
+				EE43D4721A14A6F200311C06 /* AppDelegate.swift */,
+				EE43D4741A14A6F200311C06 /* ViewController.swift */,
+				78B4B8741A49DDAF002B004D /* SettingsViewController.swift */,
+				EE43D4761A14A6F200311C06 /* Main.storyboard */,
+				EE43D4791A14A6F200311C06 /* Images.xcassets */,
+				EE43D47B1A14A6F200311C06 /* LaunchScreen.xib */,
+				EE43D4701A14A6F200311C06 /* Supporting Files */,
+			);
+			path = DrawPad;
+			sourceTree = "<group>";
+		};
+		EE43D4701A14A6F200311C06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE43D4711A14A6F200311C06 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE43D4851A14A6F200311C06 /* DrawPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE43D4881A14A6F200311C06 /* DrawPadTests.swift */,
+				EE43D4861A14A6F200311C06 /* Supporting Files */,
+			);
+			path = DrawPadTests;
+			sourceTree = "<group>";
+		};
+		EE43D4861A14A6F200311C06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE43D4871A14A6F200311C06 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE43D46C1A14A6F200311C06 /* DrawPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE43D48C1A14A6F200311C06 /* Build configuration list for PBXNativeTarget "DrawPad" */;
+			buildPhases = (
+				EE43D4691A14A6F200311C06 /* Sources */,
+				EE43D46A1A14A6F200311C06 /* Frameworks */,
+				EE43D46B1A14A6F200311C06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawPad;
+			productName = DrawPad;
+			productReference = EE43D46D1A14A6F200311C06 /* DrawPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE43D4811A14A6F200311C06 /* DrawPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE43D48F1A14A6F200311C06 /* Build configuration list for PBXNativeTarget "DrawPadTests" */;
+			buildPhases = (
+				EE43D47E1A14A6F200311C06 /* Sources */,
+				EE43D47F1A14A6F200311C06 /* Frameworks */,
+				EE43D4801A14A6F200311C06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE43D4841A14A6F200311C06 /* PBXTargetDependency */,
+			);
+			name = DrawPadTests;
+			productName = DrawPadTests;
+			productReference = EE43D4821A14A6F200311C06 /* DrawPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE43D4651A14A6F200311C06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ray Wenderlich";
+				TargetAttributes = {
+					EE43D46C1A14A6F200311C06 = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 9ARGHARU34;
+						LastSwiftMigration = 0830;
+					};
+					EE43D4811A14A6F200311C06 = {
+						CreatedOnToolsVersion = 6.1;
+						LastSwiftMigration = 0830;
+						TestTargetID = EE43D46C1A14A6F200311C06;
+					};
+				};
+			};
+			buildConfigurationList = EE43D4681A14A6F200311C06 /* Build configuration list for PBXProject "DrawPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE43D4641A14A6F200311C06;
+			productRefGroup = EE43D46E1A14A6F200311C06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE43D46C1A14A6F200311C06 /* DrawPad */,
+				EE43D4811A14A6F200311C06 /* DrawPadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE43D46B1A14A6F200311C06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE43D4781A14A6F200311C06 /* Main.storyboard in Resources */,
+				EE43D47D1A14A6F200311C06 /* LaunchScreen.xib in Resources */,
+				EE43D47A1A14A6F200311C06 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE43D4801A14A6F200311C06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE43D4691A14A6F200311C06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE43D4751A14A6F200311C06 /* ViewController.swift in Sources */,
+				EE43D4731A14A6F200311C06 /* AppDelegate.swift in Sources */,
+				78B4B8751A49DDAF002B004D /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE43D47E1A14A6F200311C06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE43D4891A14A6F200311C06 /* DrawPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE43D4841A14A6F200311C06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE43D46C1A14A6F200311C06 /* DrawPad */;
+			targetProxy = EE43D4831A14A6F200311C06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE43D4761A14A6F200311C06 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE43D4771A14A6F200311C06 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE43D47B1A14A6F200311C06 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE43D47C1A14A6F200311C06 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE43D48A1A14A6F200311C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE43D48B1A14A6F200311C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE43D48D1A14A6F200311C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9ARGHARU34;
+				INFOPLIST_FILE = DrawPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.razeware.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE43D48E1A14A6F200311C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9ARGHARU34;
+				INFOPLIST_FILE = DrawPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.razeware.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EE43D4901A14A6F200311C06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DrawPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.razeware.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawPad.app/DrawPad";
+			};
+			name = Debug;
+		};
+		EE43D4911A14A6F200311C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DrawPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.razeware.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawPad.app/DrawPad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE43D4681A14A6F200311C06 /* Build configuration list for PBXProject "DrawPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE43D48A1A14A6F200311C06 /* Debug */,
+				EE43D48B1A14A6F200311C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE43D48C1A14A6F200311C06 /* Build configuration list for PBXNativeTarget "DrawPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE43D48D1A14A6F200311C06 /* Debug */,
+				EE43D48E1A14A6F200311C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE43D48F1A14A6F200311C06 /* Build configuration list for PBXNativeTarget "DrawPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE43D4901A14A6F200311C06 /* Debug */,
+				EE43D4911A14A6F200311C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE43D4651A14A6F200311C06 /* Project object */;
+}
